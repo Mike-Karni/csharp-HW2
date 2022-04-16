@@ -1,4 +1,4 @@
-﻿int number = RandomInt(10,1001);
+﻿int number = RandomInt(10,101);
 Console.WriteLine(number);
 string stringNumber = Convert.ToString(number);
 if (number%100 == number)
@@ -11,3 +11,4 @@ int RandomInt(int enclusiveMin,int exclusiveMax)
 {
     return new Random().Next(enclusiveMin,exclusiveMax);
 }
+ 
