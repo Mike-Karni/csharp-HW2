@@ -1,54 +1,28 @@
-﻿int a = new Random().Next(1,1000);
+﻿int a = new Random().Next(1, 1000);
 Console.WriteLine(a); // Выводим число, чтобы проверить наглядность работы кода;
-Console.WriteLine("Играем в угадайку! Загадай число!");
-int b = Convert.ToInt32(Console.ReadLine());
-int tries = 0;
-while (tries <4)
+int tries = 1;
+while (tries < 4)
 {
-    if (a!=b)
+    Console.Write("Попробуйте угадать число ");
+    int myeffort = Convert.ToInt32(Console.ReadLine());
+    if (myeffort == a)
     {
-        Console.WriteLine("Вы не угадали! ещё разок!");
-     
-    }
-    else
-    {
-        Console.WriteLine("Наконец то угадали!");
+        Console.WriteLine("УГАДАЛ ЧИСЛО!");
         break;
-        Console.WriteLine("GAME OVER");
     }
-    int c = Convert.ToInt32(Console.ReadLine());
-
-tries++;    
-}
-
-
-
-/*if (a > b) 
-{
-    Console.WriteLine("НЕ УГАДАЛИ!Загаданное число больше введённого");
-}
-if (a<b) 
-{
-    Console.WriteLine("НЕ УГАДАЛИ!Загаданное число меньше введённого");
-}
-if (a==b)
-{
-    Console.WriteLine("Вы угадали число");
-}*/
-
-/*int tries = 0;
-while (tries <2)
-{
-    if (a!=b)
+    else if (myeffort < a && tries<3)
     {
-        Console.WriteLine("Вы не угадали! ещё разок!");
-     
+        Console.WriteLine("Ваше число меньше загаданного  ");
+        Console.WriteLine("НЕ УГАДАЛ!");
     }
-    else
+    else if (myeffort > a )
     {
-        Console.WriteLine("Наконец то угадали!");
-    }
-        tries++;
-        int c = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Ваше число больше загаданного");
+        Console.WriteLine("НЕ УГАДАЛ!");        
+    }  
+else if ( myeffort !=a && tries == 3 )
+{
+    Console.WriteLine("КАТКА ПРОИГРАНА!!");
 }
-Console.WriteLine("GAME OVER");*/
+tries++;
+}
