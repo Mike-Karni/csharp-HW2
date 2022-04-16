@@ -1,11 +1,18 @@
-﻿int number = RandomInt(10,101);
+﻿/*Напишите программу, которая выводит третью 
+цифру заданного числа или сообщает, что третьей цифры 
+нет.*/
+
+int number = RandomInt(10,50);
 Console.WriteLine(number);
 string stringNumber = Convert.ToString(number);
 if (number%100 == number)
 {
     Console.WriteLine("ТРЕТЬЕЙ ЦИФРЫ НЕТ!!!");
 }
+else
+{
 Console.WriteLine($"{stringNumber[2]}");
+}
 
 int RandomInt(int enclusiveMin,int exclusiveMax)
 {
