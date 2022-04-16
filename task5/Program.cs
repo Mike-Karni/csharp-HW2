@@ -1,4 +1,8 @@
-﻿int a = new Random().Next(1,1000);
+﻿/*Доп. задача: Игра угадайка. Программа загадывает случайное число. Пользователь его угадывает. 
+Если пользователь дает неправильный ответ, то программа сообщает, больше загаданное число или меньше*/
+
+// Решение
+int a = RandomInt(1,1000);
 Console.WriteLine(a);
 Console.WriteLine("Играем в угадайку! Загадай число!");
 int b = Convert.ToInt32(Console.ReadLine());
@@ -14,19 +18,8 @@ if (a==b)
 {
     Console.WriteLine("Вы угадали число");
 }
-/*int tries = 0;
-while (tries <2)
+// ФУНКЦИЯ!
+int RandomInt(int minN,int maxN)
 {
-    if (a!=b)
-    {
-        Console.WriteLine("Вы не угадали! ещё разок!");
-     
-    }
-    else
-    {
-        Console.WriteLine("Наконец то угадали!");
-    }
-        tries++;
-        int c = Convert.ToInt32(Console.ReadLine());
+    return new Random().Next(minN,maxN);
 }
-Console.WriteLine("GAME OVER");*/
