@@ -2,7 +2,7 @@
 цифру заданного числа или сообщает, что третьей цифры 
 нет.*/
 
-int number = RandomInt(10,50);
+int number = RandomInt(10,150);
 Console.WriteLine(number);
 string stringNumber = Convert.ToString(number);
 if (number%100 == number)
