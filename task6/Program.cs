@@ -1,7 +1,7 @@
 ﻿int a = new Random().Next(1, 1000);
 Console.WriteLine(a); // Выводим число, чтобы проверить наглядность работы кода;
 int tries = 1;
-while (tries < 4)
+while (tries <= 3)
 {
     Console.Write("Попробуйте угадать число ");
     int myeffort = Convert.ToInt32(Console.ReadLine());
