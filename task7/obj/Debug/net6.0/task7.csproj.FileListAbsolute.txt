@@ -1,0 +1,15 @@
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\bin\Debug\net6.0\task7.exe
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\bin\Debug\net6.0\task7.deps.json
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\bin\Debug\net6.0\task7.runtimeconfig.json
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\bin\Debug\net6.0\task7.dll
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\bin\Debug\net6.0\task7.pdb
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.csproj.AssemblyReference.cache
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.AssemblyInfoInputs.cache
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.AssemblyInfo.cs
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.csproj.CoreCompileInputs.cache
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.dll
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\refint\task7.dll
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.pdb
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\task7.genruntimeconfig.cache
+C:\Users\Upeco\Downloads\языки программирования\1. введение в C#\4 занятие(2 семинар 14.04.22)\homework(2seminar)\task7\obj\Debug\net6.0\ref\task7.dll
